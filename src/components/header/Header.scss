@@ -1,0 +1,17 @@
+.header__content__search__child {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 60px;
+  input {
+    width: 80%;
+    height: 94%;
+    margin-left: 2px;
+    padding-left: 13px;
+  }
+  input:focus{
+    color: red;
+  }
+}
