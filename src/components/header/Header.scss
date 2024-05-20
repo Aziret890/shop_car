@@ -6,12 +6,13 @@
   width: 400px;
   height: 60px;
   input {
-    width: 80%;
+    width: 90%;
     height: 94%;
     margin-left: 2px;
     padding-left: 13px;
   }
   input:focus{
     color: red;
+    // outline: 4px dashed darkorange;
   }
 }
