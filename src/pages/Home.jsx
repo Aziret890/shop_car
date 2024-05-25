@@ -7,6 +7,23 @@ function Home() {
     <div>
       <Header />
       <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+      <Catalog />
+
     </div>
   );
 }
