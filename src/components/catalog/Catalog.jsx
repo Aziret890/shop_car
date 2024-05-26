@@ -17,6 +17,21 @@ function Catalog() {
   }, []);
 
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("http://localhost:4444/auth");
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log(data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+
     console.log(scrollPx);
   }, [scrollPx]);
 
